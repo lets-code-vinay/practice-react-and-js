@@ -1,38 +1,211 @@
-.App {
-  text-align: center;
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+  background: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Asap", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*-- header --*/
+#background-image,
+#home {
+  background: url(../src/images/backgroundImage.jpg) no-repeat center top;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 650px;
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top-header {
+  padding: 2em 0;
+}
+
+.navigation-right {
+  float: right;
+}
+.navigation-right ul li {
+  display: inline-block;
+}
+.navigation-right ul li a {
+  color: #fff;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+}
+.navigation-right ul li.active a {
+  color: #00a78e;
+}
+
+.header-left {
+  padding: 3em;
+}
+.header-right {
+  padding: 3em;
+}
+
+.header-left.imageVinay {
+  width: 100%;
+  margin-top: 19px;
+}
+.header-right {
+  padding-left: 3em;
+}
+.header-right h1 {
+  font-size: 2.5em;
+  color: #fff;
+  margin: 0.5em 0 0;
+  font-weight: bold;
+}
+.header-right h1 {
+  font-size: 1.2em;
+  color: #fff;
+  background: #00a78e;
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  position: relative;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.header-right h1:before {
+  width: 0;
+  height: 0;
+  position: absolute;
+  content: "";
+  bottom: -9px;
+  left: 12px;
+  border-style: solid;
+  border-width: 14px 11px 0 12px;
+  border-color: #00a78e transparent transparent transparent;
+}
+
+.header-right h6 {
+  font-size: 1em;
+  color: #c7c7c7;
+  margin-top: 0.8em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.logo h1 {
+  margin: 0;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #fff;
+}
+
+.logo h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo span {
+  border: 7px solid #00a78e;
+  border-radius: 5px;
+  padding: 0px 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.logo {
+  float: left;
+}
+
+span.menu {
+  display: none;
+}
+
+/*-- nav-hover --*/
+.link-effect-3 a {
+  padding: 10px 0;
+  margin: 0 12px;
+  color: #797878;
+  text-shadow: none;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+}
+
+.link-effect-3 a::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  padding: 10px 0;
+  max-width: 0;
+  border-bottom: 3px solid #00a78e;
+  color: #00a78e;
+  content: attr(data-hover);
+  -webkit-transition: max-width 0.5s;
+  -moz-transition: max-width 0.5s;
+  transition: max-width 0.5s;
+}
+
+.link-effect-3 a:hover::before {
+  max-width: 100%;
+}
+
+.navbar-default .navbar-nav > li > a.active {
+  color: #f2593a !important;
+}
+
+/* -----Banner---- */
+.banner-info {
+  background: rgba(23, 20, 20, 0.58);
+  margin-top: 4em;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+ul.address-text {
+  padding: 0;
 }
 
-.App-link {
-  color: #61dafb;
+ul.address {
+  padding: 0;
+
+  margin-top: 2em;
+  border-top: 1px solid #afafaf;
+  padding-top: 0.5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul.address li {
+  display: block;
+}
+
+ul.addressli ul.address-text li {
+  display: inline-block;
+  font-size: 1em;
+  color: #fff;
+  margin-top: 1em;
+  font-weight: 400;
+}
+
+ul.address li ul.address-text li:nth-child(1) {
+  width: 20%;
+}
+
+ul.address li ul.address-text li a:hover {
+  color: #00a78e;
+}
+
+ul.address-text b {
+  color: #fff;
 }

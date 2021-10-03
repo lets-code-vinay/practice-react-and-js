@@ -1,0 +1,210 @@
+/*-- responsive-design --*/
+
+/*-----------------media 767 px-----------------*/
+@media (min-width: 767px) {
+}
+
+/*-----------------media 1366 px-----------------*/
+@media (max-width: 1366px) {
+}
+
+/*-----------------media 1280 px-----------------*/
+@media (max-width: 1280px) {
+}
+
+/*-----------------media 1024 px-----------------*/
+@media (max-width: 1024px) {
+}
+
+/*-----------------media 991 px-----------------*/
+@media (max-width: 991px) {
+  .navigation-right ul li a {
+    font-size: 0.9em;
+  }
+
+  .header-left {
+    padding: 2em 2em 0em 0;
+    float: right;
+    width: 49%;
+  }
+  .header-right {
+    padding-left: 3em;
+    float: left;
+    width: 50%;
+    padding: 2em;
+  }
+
+  .link-effect-3 a {
+    padding: 10px 0;
+    margin: 6px 4px;
+  }
+
+  /* -----Banner---- */
+  .banner-info {
+    background: rgba(47, 44, 44, 0.58);
+    margin-top: 3em;
+  }
+  ul.address li ul.address-text li:nth-child(1) {
+    width: 26%;
+  }
+
+  ul.address li ul.address-text li {
+    display: inline-block;
+    font-size: 0.9em;
+    margin-top: 1em;
+  }
+}
+
+/*-----------------media 800 px-----------------*/
+@media (max-width: 800px) {
+}
+
+/*-----------------media 768 px-----------------*/
+@media (max-width: 768px) {
+}
+
+/*-----------------media 640 px-----------------*/
+@media (max-width: 640px) {
+  .navigation-right ul {
+    position: absolute;
+    left: 2%;
+    width: 96%;
+    z-index: 999;
+    text-align: center;
+    padding: 0px;
+    margin: 13px 0px 0px;
+  }
+  .navigation-right ul.nav1 li {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    padding: 10px 0em;
+  }
+  .navigation-right {
+    margin: 0.7em 0 0;
+  }
+  .navigation-right ul li a {
+    display: inline-block;
+  }
+  .navigation-right ul.nav1 li {
+    padding: 0px 0;
+  }
+  .navigation-right ul.nav1 li:nth-child(7) {
+    padding-bottom: 10px;
+  }
+
+  span.menu {
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin: 0;
+  }
+
+  /*----Banner---*/
+  .banner-info {
+    margin-top: 2em;
+  }
+}
+
+/*-----------------media 600 px-----------------*/
+@media (max-width: 600px) {
+}
+
+/*-----------------media 480 px-----------------*/
+@media (max-width: 480px) {
+  .navigation-right {
+    margin: 0em 0 0;
+  }
+
+  .header-right {
+    padding-left: 0em;
+    float: left;
+    width: 100%;
+    padding: 1em 1em 0em 1em;
+  }
+  .header-right h1 {
+    font-size: 1em;
+    padding: 0.4em 1em;
+  }
+  .header-left {
+    padding: 0em 1em 1em 1em;
+    float: right;
+    width: 100%;
+  }
+  .header-left.imageVinay {
+    width: 100%;
+    margin-top: 3px;
+  }
+  .logo h1 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  .logo span {
+    border: 7px solid #00a78e;
+    padding: 0px 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 1.2em;
+  }
+}
+
+/*-----------------media 414 px-----------------*/
+@media (max-width: 414px) {
+  span.menu {
+    width: 91%;
+    margin-top: 8px;
+  }
+}
+
+/*-----------------media 384 px-----------------*/
+@media (max-width: 384px) {
+  .logo h1 {
+    font-size: 1.9em;
+  }
+}
+
+/*-----------------media 375 px-----------------*/
+@media (max-width: 375px) {
+  .logo h1 {
+    font-size: 1.7em;
+  }
+
+  span.menu#img {
+    width: 85%;
+    margin-top: 8px;
+  }
+
+  /*-0---banner----*/
+  .banner-info {
+    margin-top: 1.2em;
+  }
+}
+
+/*-----------------media 320 px---------------*/
+@media (max-width: 320px) {
+  .header-right {
+    padding-left: 0em;
+    float: left;
+    width: 100%;
+    padding: 0.5em 0.5em 0em 0.5em;
+  }
+
+  .logo h1 {
+    font-size: 1.7em;
+  }
+  span.menu#img {
+    width: 80%;
+    margin-top: 8px;
+  }
+
+  /* -----Banner---- */
+  ul.address {
+    margin-top: 1em;
+  }
+
+  ul.address-text b {
+    font-size: 0.9em;
+  }
+}

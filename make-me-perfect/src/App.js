@@ -1,11 +1,14 @@
-import React from 'react';
-import './App.css';
-import JsExercises from './Pages/JsExercises';
+import React from "react";
+import "./App.css";
+import "./MediaQuery.css";
+import Homepage from "./Pages/Homepage";
+import JsExercises from "./Pages/JsExercises";
 
 function App() {
   return (
     <div className="App">
-        <JsExercises />
+      <Homepage />
+      <JsExercises />
     </div>
   );
 }

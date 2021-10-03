@@ -1,0 +1,55 @@
+component list-
+1. Header  --done
+ 	Logo 	--done
+ 	Navbar	--done
+		Home	--done
+		About	--done
+		Skills	--done
+		Experience	--done
+		Portfolio	--done
+		Blog	
+		Exercises	--done
+		Contact	--done
+2. Background Image	--done
+	Covered by Navbar	--done
+	covered by Detail and image	--fix
+3. Details
+	card- detail with photo -- fix
+4. About
+	carousel for about
+	2 button
+5. Services
+	tooltip, title
+	what i do 4 card
+6. timeline
+	past experience
+7. Qualification
+	
+8. Portfolio
+	link for websites
+9. Blog
+
+10. contact me
+	email.detail
+	phone detail
+	linkedIn
+	Facebook
+	instagram
+	github
+	Address
+	Form
+11. social media link
+12. Sticky footer with animation
+13. mouse trackerr animation
+14. scroll animation
+15. Add links to all
+16. Fix banner
+
+--------------------
+
+---tags---
+ul
+li
+a
+div
+
